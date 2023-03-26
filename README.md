@@ -1,2 +1,2 @@
 # SDLSampleCode
-Some example C codes together with SDL and SDL_net 
+Some C-code exampels using SDL and SDL_net 
