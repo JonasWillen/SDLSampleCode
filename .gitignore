@@ -38,7 +38,7 @@
 *.x86_64
 *.hex
 HelloWorld
-
+redAndBlue
 # Debug files
 *.dSYM/
 *.su
