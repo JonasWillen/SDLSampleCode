@@ -12,3 +12,5 @@ E4_Alien - Work in progress to convert AlienX that is an old JavaMIDlet game pre
 E5_SierpinskinsNapkin - Simple example of visualising fractal in SDL
 
 E6_Pong - Work in progress to convert https://austinmorlan.com/posts/pong_clone/ from C++ to C 
+
+E7_SDLnet - Example code of how to use SDL_net 
