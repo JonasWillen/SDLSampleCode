@@ -1,9 +1,9 @@
 # SDL_net sample code 
 Some C-code examples  SDL_net 
 
-- theMan: Figure in a empty space
-- movingTheMan: Figure in empty space that you can move with the keyboard
-- moveTheManWithMouse: Figure in empty space that you can move with the mouse
+- theMan: A figure in a empty space
+- movingTheMan: A figure in empty space that you can move with the keyboard
+- moveTheManWithMouse: A Figure in empty space that you can move with the mouse
 
 ## SDL_net 
 - movingTheManWithUDP: Transmite the cordinates from the man to the upds.c server to be printed
