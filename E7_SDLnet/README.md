@@ -5,7 +5,7 @@ theMan - Figure in a empty space
 movingTheMan - Figure in empty space that you can move with the keyboard
 moveTheManWithMouse - Figure in empty space that you can move with the mouse
 
-movingTheManWithUDP - Transmite the cordinates from the man to the upds.c server
+movingTheManWithUDP - Transmite the cordinates from the man to the upds.c server to be printed
 movingTwoMenWithUDP - Transmite the cordinates and communicate inbetween using the udpsMirror server
 movingTwoMenWithUDPandStruct - Transmite the cordinates using a Struct and communication inbetween using the udpsMirrorWithStruct server
 
