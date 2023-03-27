@@ -1,14 +1,16 @@
-# SDLSampleCode
-Some C-code examples using SDL and SDL_net 
+# SDL_net sample code 
+Some C-code examples  SDL_net 
 
-E1_HelloWorld - Displaying a HelloWorld.bmp image
+theMan - Figure in a empty space
+movingTheMan - Figure in empty space that you can move with the keyboard
+moveTheManWithMouse - Figure in empty space that you can move with the mouse
 
-E2_RedAndBlue - Display and animates two images 
+movingTheManWithUDP - Transmite the cordinates from the man to the upds.c server
+movingTwoMenWithUDP - Transmite the cordinates and communicate inbetween using the udpsMirror server
+movingTwoMenWithUDPandStruct - Transmite the cordinates using a Struct and communication inbetween using the udpsMirrorWithStruct server
 
-E3_Keyboard - Display and lets you control one of the two images from the previous Exercise
+Server/updc - a smal text klient
+Server/udps - a smal server just printf every thing recieved
+Server/updsMirror - a smal server that mirror each message retrived from two clients
+Server/updsMirrorWithStruct - a smal server that mirror each message retrived from two clients using structs
 
-E4_Alien - Work in progress to convert AlienX that is an old JavaMIDlet game presented in Datormagazin nr 5, 2005, to SDL (Both the old article and the javacode is available inside the repo)
-
-E5_SierpinskinsNapkin - Simple example of visualising fractal in SDL
-
-E6_Pong - Work in progress to convert https://austinmorlan.com/posts/pong_clone/ from C++ to C 
