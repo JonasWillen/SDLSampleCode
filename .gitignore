@@ -49,6 +49,7 @@ redAndBlue
 *.mod*
 *.cmd
 .tmp_versions/
+.DS_Store
 modules.order
 Module.symvers
 Mkfile.old
