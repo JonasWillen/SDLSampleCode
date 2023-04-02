@@ -10,11 +10,7 @@ int main()
         return -1;
     }
 
-    SDL_Window *window = SDL_CreateWindow("SDL2 Window",
-                                          SDL_WINDOWPOS_CENTERED,
-                                          SDL_WINDOWPOS_CENTERED,
-                                          640, 480,
-                                          0);
+    SDL_Window *window = SDL_CreateWindow("SDL2 Window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, 0);
 
     if(!window)
     {
@@ -55,6 +51,13 @@ int main()
             SDL_UpdateWindowSurface(window);
         }
     }
+
+    SDL_FreeSurface(window_surface);
+    SDL_DestroyWindow(window);
+    SDL_Quit();
+    return 0;
+
+    
 
  
 }
