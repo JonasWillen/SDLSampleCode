@@ -49,16 +49,16 @@ PUBLIC void ballEventHandler(Ball theBall, SDL_Event const e){
         switch( e.key.keysym.sym ){
             case SDLK_UP:
                 printf("UP\n");
-                theBall->m_position.y -= 2;   
+                theBall->m_position.y -= 4;   
                 break;
             case SDLK_DOWN:
-                theBall->m_position.y += 2;   
+                theBall->m_position.y += 4;   
                 break;
             case SDLK_LEFT:
-                theBall->m_position.x -= 2;
+                theBall->m_position.x -= 4;
                 break;
             case SDLK_RIGHT:
-                theBall->m_position.x += 2;
+                theBall->m_position.x += 4;
                 break;
             default:
                 break;
