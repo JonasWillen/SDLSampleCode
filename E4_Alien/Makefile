@@ -10,3 +10,6 @@ world.o: world.c
 	gcc -c world.c
 Alien.o: alien.c
 	gcc -c Alien.c
+clean: 
+	rm *.o
+	rm theGame
