@@ -46,7 +46,7 @@ PUBLIC Application createApplication(){
         printf("Failed to get the surface from the window\n"); 
     }
 
-    s->image1 = SDL_LoadBMP("ball.bmp");
+    s->image1 = SDL_LoadBMP("resources/ball.bmp");
 
     if(!s->image1)
     {
@@ -59,7 +59,7 @@ PUBLIC Application createApplication(){
     s->image_position1.h = 45;
     s->x1 = 0.0;
 
-    s->image2 = SDL_LoadBMP("ball2.bmp");
+    s->image2 = SDL_LoadBMP("resources/ball2.bmp");
 
     if(!s->image2)
     {
