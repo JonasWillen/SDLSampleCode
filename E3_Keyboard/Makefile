@@ -10,3 +10,6 @@ applicaiton.o: application.c
 	gcc $(CFLAGS) application.c
 ball.o: ball.c
 	gcc $(CFLAGS) ball.c	
+clean:
+	rm *.o
+	rm redAndBlue

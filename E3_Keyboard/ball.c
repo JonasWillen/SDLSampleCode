@@ -15,9 +15,9 @@ PUBLIC Ball createBall(int x, int y, int color){
     Ball b = malloc(sizeof(struct Ball_type));
 
     if(color == 1){
-        b->m_image = SDL_LoadBMP("ball.bmp");
+        b->m_image = SDL_LoadBMP("resources/ball.bmp");
     }else{
-        b->m_image = SDL_LoadBMP("ball2.bmp");
+        b->m_image = SDL_LoadBMP("resources/ball2.bmp");
     }
 
     if(!b->m_image)
