@@ -6,7 +6,7 @@ Some C-code examples  SDL_net
 - moveTheManWithMouse: A Figure in empty space that you can move with the mouse
 
 ## SDL_net 
-- dnr: Demonstrate Hostname lookup try `./dnr www.kth.se
+- dnr: Demonstrate Hostname lookup try `./dnr www.kth.se`
 - movingTheManWithUDP: Transmite the cordinates from the man to the upds.c server to be printed
 - movingTwoMenWithUDP: Transmite the cordinates and communicate inbetween using the udpsMirror server
 - movingTwoMenWithUDPandStruct: Transmite the cordinates using a Struct and communication inbetween using the udpsMirrorWithStruct server
