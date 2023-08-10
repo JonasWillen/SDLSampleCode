@@ -3,8 +3,27 @@
 #include <time.h>
 #include "nback.h"
 
+#define CONTENT_MAX_SIZE 100
+
+struct nback_type {
+    int content[CONTENT_MAX_SIZE];
+    int size;
+};
+
 void fillInAMatch(int nBackString[], int size, int combinations, int nback);
 void fillInAllEmty(int nBackString[], int size, int combinations, int nback);
+void createNBackString(int nBackString[], int size, int combinations, int procentMatch, int nback);
+
+Nback create(int size, int combinations, int procentMatch, int nback){
+    Nback s = malloc(sizeof(struct nback_type));
+    s->size = size;
+    createNBackString(s->content, size, combinations, procentMatch, nback);
+    return s; 
+}
+
+int getIndexOf(Nback s, int i){
+    return s->content[i];
+}
 
 
 void createNBackString(int nBackString[], int size, int combinations, int procentMatch, int nback){
