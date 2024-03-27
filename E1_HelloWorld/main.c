@@ -10,7 +10,7 @@ int main()
         return -1;
     }
 
-    SDL_Window *window = SDL_CreateWindow("SDL2 Hello World", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, 0);
+    SDL_Window *window = SDL_CreateWindow("Hejsan Allesammans", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 480, 0);
 
     if(!window)
     {
