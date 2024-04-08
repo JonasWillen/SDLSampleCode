@@ -17,3 +17,10 @@ Some C-code examples  SDL_net
 - Server/updsMirror: a smal server that mirror each message retrived from two clients
 - Server/updsMirrorWithStruct: a smal server that mirror each message retrived from two clients using structs
 
+## TCP
+- TCP/tcpc.c: a smal text client
+- TCP/tcps.c: a smal text server
+- TCP/tcpclient.c: a smal text client
+- TCP/tcpserver.c: a smal text server
+- TCP/tcpmulticlient.c: a chat client that works with tcpmultiserver
+- TCP/tcpmultiserver.c: a smal singletread chat server 
