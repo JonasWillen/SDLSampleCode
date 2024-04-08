@@ -12,8 +12,8 @@ Some C-code examples  SDL_net
 - movingTwoMenWithUDPandStruct: Transmite the cordinates using a Struct and communication inbetween using the udpsMirrorWithStruct server
 
 ## Server
-- Server/updc: a smal text klient
-- Server/udps: a smal server just printf every thing recieved
+- Server/updc: a smal text client
+- Server/udps: a smal server just printf every thing its recives
 - Server/updsMirror: a smal server that mirror each message retrived from two clients
 - Server/updsMirrorWithStruct: a smal server that mirror each message retrived from two clients using structs
 
